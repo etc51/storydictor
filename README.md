@@ -72,7 +72,7 @@ Alternatively, copy all directories under `skills/` into your client's skill dir
 ## Local setup
 
 1. The host must provide browsing, image generation/inspection, local file access and independent agents. The skill cannot create missing host capabilities.
-2. Install Python 3.10+, FFmpeg and ffprobe. Pillow and a suitable TrueType font are needed for chapter overlays.
+2. Install Python 3.10+, FFmpeg, ffprobe and curl. Pillow and a suitable TrueType font are needed for chapter overlays. Set `tools.curl` if curl needs a custom path.
 3. Run `storydictor-setup`. The secret-free template is `skills/storydirector/references/local-profile.json`.
 4. Configure ElevenLabs through `ELEVENLABS_API_KEY` using your environment or secret manager. Never paste a key into a conversation or commit it.
 5. Choose actually supported voice/model IDs and verify account access. IDs in the template are empty; another installation's quota and permissions do not transfer.

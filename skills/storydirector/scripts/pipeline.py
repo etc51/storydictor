@@ -127,7 +127,10 @@ class Pipeline:
         if not re.fullmatch(r'[A-Za-z0-9_-]+', key):
             raise ValueError('Invalid key format')
         output.parent.mkdir(exist_ok=True)
-        command = ['curl.exe', '--config', '-', '--ssl-revoke-best-effort', '-sS', '--max-time', '240', '--output', str(output), '--write-out', '%{http_code}', self.profile['tts']['api_base'] + endpoint]
+        curl = self.profile.get('tools', {}).get('curl') or ('curl.exe' if sys.platform == 'win32' else 'curl')
+        command = [curl, '--config', '-', '-sS', '--max-time', '240', '--output', str(output), '--write-out', '%{http_code}', self.profile['tts']['api_base'] + endpoint]
+        if sys.platform == 'win32':
+            command.insert(3, '--ssl-revoke-best-effort')
         body_file = None
         if payload is not None:
             body_file = output.with_suffix('.request.json')
