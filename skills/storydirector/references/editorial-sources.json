@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "installed_at": "2026-10-13",
+  "installer": "skill-installer/scripts/install-skill-from-github.py",
+  "plugins_or_external_runtimes_installed": false,
+  "skills": [
+    {
+      "skill": "sw-character-conflict",
+      "repository": "https://github.com/jtydhr88/screenwriting-skills",
+      "commit": "51115f18d160aa8b2ac5813e4432b6f0b425358f",
+      "upstream_path": "plugins/screenwriting/skills/sw-character-conflict",
+      "upstream_entrypoint_url": "https://raw.githubusercontent.com/jtydhr88/screenwriting-skills/51115f18d160aa8b2ac5813e4432b6f0b425358f/plugins/screenwriting/skills/sw-character-conflict/SKILL.md",
+      "license": "MIT",
+      "license_file": "../../sw-character-conflict/LICENSE",
+      "upstream_skill_sha256": "eec1ede6394ae995137e819d33775df5598851aed03734d45e02693f5fcfedaf",
+      "installed_skill_sha256": "eec1ede6394ae995137e819d33775df5598851aed03734d45e02693f5fcfedaf",
+      "local_adaptations": [
+        "Bundled in StoryDictor; personal filesystem paths removed where present."
+      ],
+      "public_package_skill_sha256": "eec1ede6394ae995137e819d33775df5598851aed03734d45e02693f5fcfedaf"
+    },
+    {
+      "skill": "sw-scene-craft",
+      "repository": "https://github.com/jtydhr88/screenwriting-skills",
+      "commit": "51115f18d160aa8b2ac5813e4432b6f0b425358f",
+      "upstream_path": "plugins/screenwriting/skills/sw-scene-craft",
+      "upstream_entrypoint_url": "https://raw.githubusercontent.com/jtydhr88/screenwriting-skills/51115f18d160aa8b2ac5813e4432b6f0b425358f/plugins/screenwriting/skills/sw-scene-craft/SKILL.md",
+      "license": "MIT",
+      "license_file": "../../sw-scene-craft/LICENSE",
+      "upstream_skill_sha256": "8e17bd548c7b27e7c88d8bceb498cf7d61e545d567085efecb1e4818f4e0e902",
+      "installed_skill_sha256": "8e17bd548c7b27e7c88d8bceb498cf7d61e545d567085efecb1e4818f4e0e902",
+      "local_adaptations": [
+        "Bundled in StoryDictor; personal filesystem paths removed where present."
+      ],
+      "public_package_skill_sha256": "8e17bd548c7b27e7c88d8bceb498cf7d61e545d567085efecb1e4818f4e0e902"
+    },
+    {
+      "skill": "sw-workflow",
+      "repository": "https://github.com/jtydhr88/screenwriting-skills",
+      "commit": "51115f18d160aa8b2ac5813e4432b6f0b425358f",
+      "upstream_path": "plugins/screenwriting/skills/sw-workflow",
+      "upstream_entrypoint_url": "https://raw.githubusercontent.com/jtydhr88/screenwriting-skills/51115f18d160aa8b2ac5813e4432b6f0b425358f/plugins/screenwriting/skills/sw-workflow/SKILL.md",
+      "license": "MIT",
+      "license_file": "../../sw-workflow/LICENSE",
+      "upstream_skill_sha256": "1e51911c81123196dfcfe4a4a5712d09483745f626a75c832bda2188c53e24d8",
+      "installed_skill_sha256": "1e51911c81123196dfcfe4a4a5712d09483745f626a75c832bda2188c53e24d8",
+      "local_adaptations": [
+        "Bundled in StoryDictor; personal filesystem paths removed where present."
+      ],
+      "public_package_skill_sha256": "1e51911c81123196dfcfe4a4a5712d09483745f626a75c832bda2188c53e24d8"
+    },
+    {
+      "skill": "story-review",
+      "repository": "https://github.com/haowjy/creative-writing-skills",
+      "commit": "254d4bb9b3b2e50a47def955b6461c06057eedae",
+      "upstream_path": "cw/skills/story-review",
+      "upstream_entrypoint_url": "https://raw.githubusercontent.com/haowjy/creative-writing-skills/254d4bb9b3b2e50a47def955b6461c06057eedae/cw/skills/story-review/SKILL.md",
+      "license": "Apache-2.0",
+      "license_file": "../../story-review/LICENSE",
+      "upstream_skill_sha256": "f2a3996a2a6639ab9594056711130c031c11a01119856c2f0ab9e02bab2ae750",
+      "installed_skill_sha256": "f2a3996a2a6639ab9594056711130c031c11a01119856c2f0ab9e02bab2ae750",
+      "local_adaptations": [
+        "Bundled in StoryDictor; personal filesystem paths removed where present."
+      ],
+      "public_package_skill_sha256": "f2a3996a2a6639ab9594056711130c031c11a01119856c2f0ab9e02bab2ae750"
+    },
+    {
+      "skill": "reader-sim",
+      "repository": "https://github.com/haowjy/creative-writing-skills",
+      "commit": "254d4bb9b3b2e50a47def955b6461c06057eedae",
+      "upstream_path": "cw/skills/reader-sim",
+      "upstream_entrypoint_url": "https://raw.githubusercontent.com/haowjy/creative-writing-skills/254d4bb9b3b2e50a47def955b6461c06057eedae/cw/skills/reader-sim/SKILL.md",
+      "license": "Apache-2.0",
+      "license_file": "../../reader-sim/LICENSE",
+      "upstream_skill_sha256": "f0059cfa35ab7dd2f4cd48952829ee83bf766edcdcbc58c62bef9ae90b0fa64d",
+      "installed_skill_sha256": "f0059cfa35ab7dd2f4cd48952829ee83bf766edcdcbc58c62bef9ae90b0fa64d",
+      "local_adaptations": [
+        "Bundled in StoryDictor; personal filesystem paths removed where present."
+      ],
+      "public_package_skill_sha256": "f0059cfa35ab7dd2f4cd48952829ee83bf766edcdcbc58c62bef9ae90b0fa64d"
+    },
+    {
+      "skill": "writing-principles",
+      "repository": "https://github.com/haowjy/creative-writing-skills",
+      "commit": "254d4bb9b3b2e50a47def955b6461c06057eedae",
+      "upstream_path": "cw/skills/writing-principles",
+      "upstream_entrypoint_url": "https://raw.githubusercontent.com/haowjy/creative-writing-skills/254d4bb9b3b2e50a47def955b6461c06057eedae/cw/skills/writing-principles/SKILL.md",
+      "license": "Apache-2.0",
+      "license_file": "../../writing-principles/LICENSE",
+      "upstream_skill_sha256": "2ee021e7ad3638d46e3425c4366d5d4e0f8d2cbd34f0142392c0807f12b72141",
+      "installed_skill_sha256": "2ee021e7ad3638d46e3425c4366d5d4e0f8d2cbd34f0142392c0807f12b72141",
+      "local_adaptations": [
+        "Bundled in StoryDictor; personal filesystem paths removed where present."
+      ],
+      "public_package_skill_sha256": "2ee021e7ad3638d46e3425c4366d5d4e0f8d2cbd34f0142392c0807f12b72141"
+    },
+    {
+      "skill": "llm-writing",
+      "repository": "https://github.com/haowjy/creative-writing-skills",
+      "commit": "254d4bb9b3b2e50a47def955b6461c06057eedae",
+      "upstream_path": "cw/skills/llm-writing",
+      "upstream_entrypoint_url": "https://raw.githubusercontent.com/haowjy/creative-writing-skills/254d4bb9b3b2e50a47def955b6461c06057eedae/cw/skills/llm-writing/SKILL.md",
+      "license": "Apache-2.0",
+      "license_file": "../../llm-writing/LICENSE",
+      "upstream_skill_sha256": "7a6726541612aaec265f2c3e5ef4692181620148db6d0a005b21cd3a19291fda",
+      "installed_skill_sha256": "394d108006c1b7a636e1896c965416cf1ffa145765145890a55e98093eb2a45e",
+      "local_adaptations": [
+        "Replaced intent-modeling and information-hierarchy load directives with StoryDirector project brief; no extra skills installed.",
+        "Bundled in StoryDictor; personal filesystem paths removed where present."
+      ],
+      "public_package_skill_sha256": "394d108006c1b7a636e1896c965416cf1ffa145765145890a55e98093eb2a45e"
+    }
+  ],
+  "scope": "Selected craft/review skills and two direct dependencies; StoryDirector governs production.",
+  "dependency_notes": [
+    "sw-character-conflict and sw-scene-craft use installed sw-workflow/terms.md. Full sw-workflow is retained as a dependency, not invoked as project orchestrator.",
+    "writing-principles points to installed llm-writing; llm-writing has a recorded local adaptation to StoryDirector brief.",
+    "Optional wider-library links (genre, industry, screenplay formats, creative-writing-craft/modes) were not installed and are not required for the selected StoryDirector route.",
+    "All mandatory markdown links in story-editorial and the selected skill entrypoints were checked and resolve.",
+    "Apache-2.0 repository pinned tree contains no NOTICE file; full upstream LICENSE was copied into each skill."
+  ]
+}

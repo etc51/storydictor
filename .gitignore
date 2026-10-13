@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+output/
+dist/
+*.sqlite3
+*.wav
+*.mp3
+*.mp4
+production_profile.json

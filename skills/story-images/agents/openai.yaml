@@ -1,0 +1,6 @@
+interface:
+  display_name: "сторикартинки"
+  short_description: "Параллельная генерация кадров с проверкой лора"
+  default_prompt: "Используй $story-images (сторикартинки), чтобы создать все кадры текущей истории параллельно с субагентами и проверить качество каждого изображения."
+policy:
+  allow_implicit_invocation: true

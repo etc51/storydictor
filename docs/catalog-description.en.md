@@ -1,0 +1,9 @@
+StoryDictor turns a topic into an original narrated video story through an agent-led desktop workflow. It combines research, character and relationship bibles, a causal story plan, independent script critique, a fresh-reader pass, expressive narration direction, aligned subtitles, bulk storyboard images, visual-lore checks, local camera/light motion, music and sound effects, and a reviewed MP4.
+
+The optional life-ladder format follows one continuous life as choices expand the protagonist's capabilities, influence and responsibility. The default episode is 25–35 minutes with 150–200 distinct story images. Tense scenes change images every 4–8 seconds; ordinary narration uses 10–15 seconds; selected emotional pauses may use 20–25 seconds. Each image is reviewed against the scene, character versions and world sources.
+
+Script reviews bind to the exact text hash. A writer cannot approve their own critical findings. Changed text requires a new review and targeted updates to voice, timing, images and edit. Fresh-reader simulation is a subjective signal, not measured audience retention.
+
+The bundled queue coordinates independent image workers, revisions, dependencies and uncertain outcomes within the host's available slots. It does not generate images by itself and is not an unattended background service. The host must provide browsing, image generation/inspection, local filesystem access and independent agents. Full production also needs Python, FFmpeg/ffprobe, Pillow, and your own configured ElevenLabs access or suitable licensed audio materials. Emotion claims require actual listening when supported; STT alone is insufficient.
+
+No credentials, accounts, generated films or private episode data are included. External services may consume your own quota; overage and new subscriptions are not enabled automatically. Delivery includes MP4, cover, subtitles, title and description. Uploading to video platforms is separate and requires your instruction.

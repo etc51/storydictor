@@ -1,0 +1,59 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "storydictor",
+  "version": "1.0.0",
+  "description": "Original narrated life stories with independent editorial review and visual-lore QA.",
+  "author": {
+    "name": "etc51",
+    "url": "https://github.com/etc51"
+  },
+  "homepage": "https://github.com/etc51/storydictor",
+  "repository": "https://github.com/etc51/storydictor",
+  "license": "MIT",
+  "keywords": [
+    "storytelling",
+    "video",
+    "screenwriting",
+    "narration",
+    "storyboard"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "StoryDictor",
+        "shortDescription": "Create cinematic life stories",
+        "longDescription": "StoryDictor turns a topic into an original narrated video story through an agent-led desktop workflow. It combines research, character and relationship bibles, a causal story plan, independent script critique, a fresh-reader pass, expressive narration direction, aligned subtitles, bulk storyboard images, visual-lore checks, local camera/light motion, music and sound effects, and a reviewed MP4.\n\nThe optional life-ladder format follows one continuous life as choices expand the protagonist's capabilities, influence and responsibility. The default episode is 25–35 minutes with 150–200 distinct story images. Tense scenes change images every 4–8 seconds; ordinary narration uses 10–15 seconds; selected emotional pauses may use 20–25 seconds. Each image is reviewed against the scene, character versions and world sources.\n\nScript reviews bind to the exact text hash. A writer cannot approve their own critical findings. Changed text requires a new review and targeted updates to voice, timing, images and edit. Fresh-reader simulation is a subjective signal, not measured audience retention.\n\nThe bundled queue coordinates independent image workers, revisions, dependencies and uncertain outcomes within the host's available slots. It does not generate images by itself and is not an unattended background service. The host must provide browsing, image generation/inspection, local filesystem access and independent agents. Full production also needs Python, FFmpeg/ffprobe, Pillow, and your own configured ElevenLabs access or suitable licensed audio materials. Emotion claims require actual listening when supported; STT alone is insufficient.\n\nNo credentials, accounts, generated films or private episode data are included. External services may consume your own quota; overage and new subscriptions are not enabled automatically. Delivery includes MP4, cover, subtitles, title and description. Uploading to video platforms is separate and requires your instruction.",
+        "developerName": "etc51",
+        "category": "Productivity",
+        "capabilities": [
+          "Original story scripts",
+          "Independent editorial review",
+          "Story image production",
+          "Narrated video workflow"
+        ],
+        "websiteURL": "https://github.com/etc51/storydictor",
+        "supportURL": "https://github.com/etc51/storydictor/issues",
+        "defaultPrompt": [
+          "Create a 30-minute life-ladder story with independent script review.",
+          "Review my story for weak motives, repetitive scenes and an unearned ending.",
+          "Plan 150–200 lore-checked images for my narrated story."
+        ],
+        "brandColor": "#12345C",
+        "brandColorDark": "#F9BD4F",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      },
+      "requires_local_executor": true,
+      "onboardingSkill": "./skills/storydictor-setup/SKILL.md",
+      "publication": {
+        "release_notes": "Initial public release: independent editorial gate, visual-lore QA, resumable image queue and emotional narration direction.",
+        "translations": {
+          "ru-RU": {
+            "subtitle": "Кинематографичные истории",
+            "description": "StoryDictor превращает тему в оригинальную видеоисторию с рассказчиком. Навык объединяет исследование, библию персонажей и отношений, причинный план, независимую критику сценария, проверку свежим читателем, эмоциональную режиссуру речи, реальные таймкоды и субтитры, массовую генерацию кадров, проверку визуального лора, локальное движение камеры и света, музыку, эффекты и проверенный MP4.\n\nФормат «история лестница» показывает одну непрерывную жизнь: решения расширяют возможности, влияние и ответственность героя. Стандартный выпуск длится 25–35 минут и содержит 150–200 уникальных сюжетных изображений. Напряжённые сцены: смена каждые 4–8 секунд; обычное повествование: 10–15; отдельные эмоциональные паузы: 20–25. Кадры проверяются по сцене, версии героя и источникам мира.\n\nРедакторские отчёты связаны с SHA256 точного текста. Автор не может сам снять критическое замечание. После изменения сценария требуется новая проверка и адресное обновление речи, таймкодов, изображений и монтажа. Симуляция читателя не является измерением удержания реальной аудитории.\n\nОчередь «сторикартинки» координирует независимых исполнителей, версии, зависимости и неизвестные исходы в пределах реальных слотов. Она сама не генерирует изображения. Это работа активного агента на компьютере, а не самостоятельный фоновый сервис. Нужны инструменты исследования, генерации и просмотра изображений, доступ к файлам и независимым агентам. Для полного фильма также требуются Python, FFmpeg/ffprobe, Pillow и собственный настроенный ElevenLabs либо подходящие лицензированные аудиоматериалы. Проверка эмоций требует доступного прослушивания; STT её не заменяет.\n\nКлючи, аккаунты, готовые фильмы и частные истории в пакет не входят. Внешние сервисы расходуют вашу квоту; доплаты и новые подписки автоматически не подключаются. Итог: MP4, обложка, субтитры, название и описание. Загрузка на видеоплощадки выполняется только по отдельному поручению."
+          }
+        }
+      }
+    }
+  }
+}

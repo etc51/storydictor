@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "language": "ru",
+  "target_duration_seconds": 1800,
+  "aspect_ratio": "16:9",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "visual_style": "cinematic semi-realistic illustration",
+  "output_root": "output",
+  "tts": {
+    "provider": "elevenlabs",
+    "api_base": "https://api.elevenlabs.io",
+    "key_env": "ELEVENLABS_API_KEY",
+    "key_file": null,
+    "preferred_model": "",
+    "default_voice_id": "",
+    "verified": [],
+    "verified_on": null,
+    "stt_model": "scribe_v2"
+  },
+  "images": {
+    "provider": "codex_image_gen",
+    "external_api_configured": false,
+    "humorous_object_text": {
+      "target_image_fraction": 0.5,
+      "includes_visual_gags": true,
+      "enabled": true,
+      "rounding": "floor"
+    }
+  },
+  "animation": {
+    "default_mode": "local_camera_light",
+    "video_api_configured": false,
+    "character_animation_enabled": false,
+    "allowed_effects": [
+      "camera",
+      "layered_parallax",
+      "light",
+      "transitions"
+    ]
+  },
+  "audio_assets": {
+    "preferred_provider": "elevenlabs",
+    "music_api_verified": false,
+    "sfx_api_verified": false,
+    "licensed_library": null,
+    "music_api_status": "Check access before use",
+    "music_strategy": "Licensed instrumental sources matched to story scenes",
+    "music_license_status": "Check rights for your intended use"
+  },
+  "tools": {
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe",
+    "font_file": null
+  },
+  "budget": {
+    "currency": "USD",
+    "max_per_story": null,
+    "max_per_stage": {},
+    "paid_batch_enabled": false,
+    "mode": "subscription_included_usage_only",
+    "allow_overage": false,
+    "recommended_plan": null,
+    "pricing_verified_on": null,
+    "pricing_sources": [
+      "https://elevenlabs.io/pricing/api",
+      "https://elevenlabs.io/docs/overview/administration/billing"
+    ],
+    "last_verified_tier": null
+  },
+  "max_regenerations_per_asset": 2,
+  "delivery": {
+    "publish": false,
+    "mp4": true,
+    "subtitles": true,
+    "cover": true,
+    "publication_package": {
+      "community_url": null,
+      "primary_platforms": [
+        "rutube",
+        "vk_video"
+      ],
+      "title_and_description_by_agent": true,
+      "ladder_title_prefix": "Твоя жизнь",
+      "optional_platforms": [
+        "youtube"
+      ],
+      "mode": "manual_by_user",
+      "required_deliverables": [
+        "final_mp4",
+        "separate_cover_png",
+        "title",
+        "description"
+      ]
+    }
+  },
+  "duration_range_seconds": [
+    1500,
+    2100
+  ]
+}
